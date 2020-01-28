@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1580202667 source:d:\netfo\documents\ludus\c\listedoublechainee\ldoublechain.c
+	"lDoubleChain.h"
+	<stdio.h>
+	<stdlib.h>
+
+1580202649 d:\netfo\documents\ludus\c\listedoublechainee\ldoublechain.h
+
+1580202602 source:d:\netfo\documents\ludus\c\listedoublechainee\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lDoubleChain.h"
+

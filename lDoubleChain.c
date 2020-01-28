@@ -97,6 +97,7 @@ int getLastNumber(lDoubleChain * liste)
 
 void afficherListe(lDoubleChain * liste)
 {
+    printf("Affichage de la liste\n");
     nbrListe * crtNbr = liste->first;
     for(int i = 0; i < liste->length; i++)
     {
@@ -105,4 +106,5 @@ void afficherListe(lDoubleChain * liste)
             exit(EXIT_FAILURE);
         crtNbr = crtNbr->next;
     }
+    printf("\n");
 }

@@ -6,7 +6,7 @@
 int main()
 {
     lDoubleChain * liste = iniDoubleChain();
-    printf("Gestion de listes doublement chainees\n");
+    printf("Gestion de listes doublement chainees\n\n");
 
     addLastNumber(liste, 1);
     addBeginNumber(liste, 2);
@@ -15,10 +15,10 @@ int main()
     addLastNumber(liste, 5);
     addBeginNumber(liste, 6);
 
-    printf("Recuperation de 3 premiers elements et 3 derniers\n");
 
     afficherListe(liste);
 
+    printf("Recuperation de 3 premiers elements et 3 derniers\n");
     for(int i = 0; i < 3; i ++)
         printf("Premier element : %i\n" ,getFirstNumber(liste));
 
